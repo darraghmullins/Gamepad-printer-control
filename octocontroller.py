@@ -18,7 +18,7 @@ octoprint_ip = "127.0.0.1"
 octoprint_port = "80"
 
 # Define the API key of your OctoPrint server
-api_key = "BE87410087044812B8F2ED1A99EDE05D"
+api_key = "API_KEY"
 
 # Define the button mappings
 button_map = {
