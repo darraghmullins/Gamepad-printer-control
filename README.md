@@ -32,11 +32,11 @@ The script will start a loop that reads input from the joystick and sends comman
 
 ## Button Mappings
 
-You can modify the `button_map` dictionary in the script to change the button mappings or add more buttons.
-Check the bottom of this page
-https://www.pygame.org/docs/ref/joystick.html
-for controller button mappings.
-It is currently set up for using the left joystick of an xbox controller, but commented out sections contain the other commands to work with the defined button mappings within `button_map`.
+It is currently set up for using the joysticks, triggers and face buttons of an Xbox controller.
+- Left joystick Y-Z
+- Right joystick X-E0 (Tool0)
+- L/R Triggers E1 (Tool 1)
+- A/B Open/Close Gripper
 
 ## Throttling
 The script includes a delay of 0.2 seconds at the end of each loop iteration to throttle the input from the joystick. You can adjust this delay to suit your needs.
